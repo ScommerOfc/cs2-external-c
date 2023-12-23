@@ -20,6 +20,7 @@ struct offsets_t {
     DWORD f_flags;
 } offsets;
 
+//TODO: Automatic Updates, Read Data through cURL, Will be implemented later on
 void setup_offsets() {
     offsets.local_player_pawn = 0x16C8F38;
     offsets.f_flags = 0x3C8;
